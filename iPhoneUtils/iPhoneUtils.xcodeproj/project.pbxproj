@@ -27,6 +27,9 @@
 		9271AF191517DF5500EF7296 /* UIImage+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271AF101517DF5500EF7296 /* UIImage+utils.m */; };
 		9271AF1A1517DF5500EF7296 /* ButtonNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271AF131517DF5500EF7296 /* ButtonNotification.m */; };
 		9271AF1B1517DF5500EF7296 /* YouTubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271AF151517DF5500EF7296 /* YouTubeView.m */; };
+		C9C8D225151CDB19009C3DAD /* UIView+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C8D223151CDB19009C3DAD /* UIView+utils.m */; };
+		C9C8D229151CDB2C009C3DAD /* PickerDataSourceWithBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C8D227151CDB2C009C3DAD /* PickerDataSourceWithBackground.m */; };
+		C9C8D22C151CDB47009C3DAD /* NSData+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C8D22B151CDB47009C3DAD /* NSData+utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,12 @@
 		9271AF131517DF5500EF7296 /* ButtonNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonNotification.m; sourceTree = "<group>"; };
 		9271AF141517DF5500EF7296 /* YouTubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeView.h; sourceTree = "<group>"; };
 		9271AF151517DF5500EF7296 /* YouTubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeView.m; sourceTree = "<group>"; };
+		C9C8D223151CDB19009C3DAD /* UIView+utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+utils.m"; sourceTree = "<group>"; };
+		C9C8D224151CDB19009C3DAD /* UIView+utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+utils.h"; sourceTree = "<group>"; };
+		C9C8D227151CDB2C009C3DAD /* PickerDataSourceWithBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerDataSourceWithBackground.m; sourceTree = "<group>"; };
+		C9C8D228151CDB2C009C3DAD /* PickerDataSourceWithBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerDataSourceWithBackground.h; sourceTree = "<group>"; };
+		C9C8D22A151CDB47009C3DAD /* NSData+utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+utils.h"; sourceTree = "<group>"; };
+		C9C8D22B151CDB47009C3DAD /* NSData+utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +216,8 @@
 				9271AF091517DF5500EF7296 /* NSArray+utils.m */,
 				9271AF0A1517DF5500EF7296 /* NSDictionary+utils.h */,
 				9271AF0B1517DF5500EF7296 /* NSDictionary+utils.m */,
+				C9C8D22A151CDB47009C3DAD /* NSData+utils.h */,
+				C9C8D22B151CDB47009C3DAD /* NSData+utils.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -214,6 +225,8 @@
 		9271AF0C1517DF5500EF7296 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C9C8D223151CDB19009C3DAD /* UIView+utils.m */,
+				C9C8D224151CDB19009C3DAD /* UIView+utils.h */,
 				9271AF0D1517DF5500EF7296 /* UIAlertView+utils.h */,
 				9271AF0E1517DF5500EF7296 /* UIAlertView+utils.m */,
 				9271AF0F1517DF5500EF7296 /* UIImage+utils.h */,
@@ -225,6 +238,8 @@
 		9271AF111517DF5500EF7296 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C9C8D227151CDB2C009C3DAD /* PickerDataSourceWithBackground.m */,
+				C9C8D228151CDB2C009C3DAD /* PickerDataSourceWithBackground.h */,
 				9271AF121517DF5500EF7296 /* ButtonNotification.h */,
 				9271AF131517DF5500EF7296 /* ButtonNotification.m */,
 				9271AF141517DF5500EF7296 /* YouTubeView.h */,
@@ -350,6 +365,9 @@
 				9271AF191517DF5500EF7296 /* UIImage+utils.m in Sources */,
 				9271AF1A1517DF5500EF7296 /* ButtonNotification.m in Sources */,
 				9271AF1B1517DF5500EF7296 /* YouTubeView.m in Sources */,
+				C9C8D225151CDB19009C3DAD /* UIView+utils.m in Sources */,
+				C9C8D229151CDB2C009C3DAD /* PickerDataSourceWithBackground.m in Sources */,
+				C9C8D22C151CDB47009C3DAD /* NSData+utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +547,7 @@
 				9271AF001517DB5C00EF7296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9271AF011517DB5C00EF7296 /* Build configuration list for PBXNativeTarget "iPhoneUtilsTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +556,7 @@
 				9271AF031517DB5C00EF7296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
