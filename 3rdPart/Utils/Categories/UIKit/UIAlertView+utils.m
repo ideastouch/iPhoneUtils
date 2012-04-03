@@ -2,8 +2,8 @@
 //  UIAlertView+utils.m
 //  personal
 //
-//  Created by Silvio Halperin on 12/6/11.
-//  Copyright (c) 2011 Three Pillar Global. All rights reserved.
+//  Created by Gustavo E Halperin on 12/6/11.
+//  Copyright (c) 2011 Gustavo E Halperin. All rights reserved.
 //
 
 #import "UIAlertView+utils.h"

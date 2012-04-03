@@ -3,7 +3,7 @@
 //  personal
 //
 //  Created by Silvio Halperin on 12/6/11.
-//  Copyright (c) 2011 Three Pillar Global. All rights reserved.
+//  Copyright (c) 2011 Gustavo E Halperin. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

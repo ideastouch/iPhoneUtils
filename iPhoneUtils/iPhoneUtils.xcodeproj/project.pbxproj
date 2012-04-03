@@ -27,6 +27,7 @@
 		9271AF191517DF5500EF7296 /* UIImage+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271AF101517DF5500EF7296 /* UIImage+utils.m */; };
 		9271AF1A1517DF5500EF7296 /* ButtonNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271AF131517DF5500EF7296 /* ButtonNotification.m */; };
 		9271AF1B1517DF5500EF7296 /* YouTubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9271AF151517DF5500EF7296 /* YouTubeView.m */; };
+		C9C31554152B89F2001E079D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C31553152B89F1001E079D /* QuartzCore.framework */; };
 		C9C8D225151CDB19009C3DAD /* UIView+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C8D223151CDB19009C3DAD /* UIView+utils.m */; };
 		C9C8D229151CDB2C009C3DAD /* PickerDataSourceWithBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C8D227151CDB2C009C3DAD /* PickerDataSourceWithBackground.m */; };
 		C9C8D22C151CDB47009C3DAD /* NSData+utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C8D22B151CDB47009C3DAD /* NSData+utils.m */; };
@@ -75,6 +76,7 @@
 		9271AF131517DF5500EF7296 /* ButtonNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonNotification.m; sourceTree = "<group>"; };
 		9271AF141517DF5500EF7296 /* YouTubeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubeView.h; sourceTree = "<group>"; };
 		9271AF151517DF5500EF7296 /* YouTubeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubeView.m; sourceTree = "<group>"; };
+		C9C31553152B89F1001E079D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C9C8D223151CDB19009C3DAD /* UIView+utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+utils.m"; sourceTree = "<group>"; };
 		C9C8D224151CDB19009C3DAD /* UIView+utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+utils.h"; sourceTree = "<group>"; };
 		C9C8D227151CDB2C009C3DAD /* PickerDataSourceWithBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerDataSourceWithBackground.m; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9C31554152B89F2001E079D /* QuartzCore.framework in Frameworks */,
 				9271AECD1517DB5B00EF7296 /* UIKit.framework in Frameworks */,
 				9271AECF1517DB5B00EF7296 /* Foundation.framework in Frameworks */,
 				9271AED11517DB5B00EF7296 /* CoreGraphics.framework in Frameworks */,
@@ -130,6 +133,7 @@
 		9271AECB1517DB5B00EF7296 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C9C31553152B89F1001E079D /* QuartzCore.framework */,
 				9271AECC1517DB5B00EF7296 /* UIKit.framework */,
 				9271AECE1517DB5B00EF7296 /* Foundation.framework */,
 				9271AED01517DB5B00EF7296 /* CoreGraphics.framework */,
